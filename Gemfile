@@ -1,6 +1,13 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "https://rubygems.org" do
 
-gemspec
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "kramdown-parser-gfm"
+gem "stringex"
+gem "bundler"
+gem "rake"
 
+end
